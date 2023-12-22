@@ -1,0 +1,205 @@
+.logo{
+    width: 58%;
+    padding-left: 54px;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+li{
+    list-style-type: none;
+    float: left;
+    padding-left:19px;
+    padding-top: 10px;
+    font-weight: 600;
+    font-size:18px; 
+}
+li:hover{
+    color:  hsl(342.9deg 100% 37.84%);
+}
+.list{
+    
+    padding-top: 21px; 
+    margin-left: -60px;
+}
+.ullist{
+    padding-left: 5px;
+}
+.reg{
+    padding-top: 19px;
+    margin-top: 13px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.reg:hover{
+    color:  hsl(342.9deg 100% 37.84%);   
+}
+.reglog{
+    display: flex;
+    flex-direction: row;
+}
+.loginbtn{
+    background-color: hsl(342.9deg 100% 37.84%);
+    border: none;
+    color: white;
+    font-weight: 600;
+    padding: 7px 21px;
+    text-align: center;
+    height:40px;
+    margin-left: 44px;
+    margin-top: 26px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+  }
+  .serchbtn:hover{
+    color: hsl(342.9deg 100% 37.84%) ;
+    background-color: white;
+    border:2px solid hsl(342.9deg 100% 37.84%) ;
+  }
+  .loginbtn:hover{
+    color: hsl(342.9deg 100% 37.84%) ;
+    background-color: white;
+    border:2px solid hsl(342.9deg 100% 37.84%) ;
+  }
+.imgbanner{
+    width: 500px;
+    height:99%;
+}
+.bgcolur{
+    background-color: hsl(0deg 0% 95.29%);
+    height: 545px;
+}
+.border{
+    margin-top: 129px;
+    color: beige;
+    background-color: hsl(207.57deg 25.17% 28.82%);
+    padding: 10px 20px 8px 20px;
+    width: 38%;
+    margin-left: 77px;
+    border-radius: 23px;
+}
+.border:hover{
+    background-color: hsl(207.57deg 25.17% 28.82%);   
+}
+.find{
+    color: hsl(342.9deg 100% 37.84%);
+}
+.bannerhead{
+    padding-left: 65px;
+    padding-top: 30px;
+    font-weight:700;
+    font-size:52px;
+}
+.para{
+    padding-top:20px;
+    padding-left: 70px;
+    font-weight: 400;
+    color: gray;
+}
+.form{
+    background: transparent;
+    border: none;
+   
+    border-color: 1px solid black;
+    margin-left: 69px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 16px;
+    outline: none;
+    width: 265px;
+    height:42px;
+}
+.form1{
+    background: transparent;
+    border: none;
+    background-color: white;
+    border-color: 1px solid black;
+    margin-left:23px;
+    padding-left: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-color: white;
+    outline: none;
+    width:211px;
+    height:42px;
+}
+.serchbtn{
+    width: 122px;
+    height: 42px;
+    margin-left:94px;
+    margin-top: 16px;
+}
+.form:hover{
+    border-color: 1px solid black;
+    border: none;
+    border: none;
+    outline: none;
+}
+.bannerform{
+    display: flex;
+    flex-direction: row;
+}
+.bgbanner{
+
+    background-repeat: no-repeat;
+
+}
+@media(max-width:991px)
+{  
+
+li{
+    display: none;
+}
+.reg{
+    display: none;
+}
+.loginbtn{
+    display: none;
+}
+.logo{
+    width: 45%;
+    padding-left: 58px;
+    margin-left: 58px;
+}
+.border{
+    width: 50%;
+    margin-left: 23px;
+    margin-top: 38px;
+    font-size: 10px;
+}
+.bannerhead {
+    font-size: 23px;
+    padding-left: 27px;
+}
+.para{
+    padding-left: 26px;
+}
+.serchbtn{
+    display: none;
+}
+.imgbanner {
+    display: none;
+}
+.bgcolor{
+    height: 338px;
+    width: 100%;
+}
+.bgcolur{
+    height: 338px;
+}
+.form{
+    display: none;
+}
+.form1{
+    display: none;  
+}
+
+
+
+}
+/* -webkit-animation: tada 1.5s ease-in-out infinite;
+    animation: tada 1.5s ease-in-out infinite; */
+

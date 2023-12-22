@@ -1,0 +1,128 @@
+.adsblog{
+    border-radius:6px;
+    box-shadow: 0 8px 16px 0 rgba(20, 20, 20, 0.1);
+    border: 1px solid #e4ebea;
+    height: 550px;
+    margin-bottom: 76px;
+    cursor: pointer;
+    transition: 1s;
+    width:100%;
+}
+.blogimg{
+    width: 100%;
+    border-radius: 5px;
+}
+.blogbtn1{
+    margin-top:30px;
+    margin-left:39px;
+    color: black;
+    background-color: #e4ebea;
+    height:34px;
+    border: none;
+}
+.blogbtn1:hover{
+    color: white;
+    background-color:hsl(342.9deg 100% 37.84%) ;
+}
+.blogbtn2{
+    margin-top: 30px;
+    margin-left:8px;
+    color: black;
+    background-color: #e4ebea;
+    height:34px;
+    border: none;
+}
+.blogbtn2:hover{
+    color: white;
+    background-color:hsl(342.9deg 100% 37.84%) ;
+}
+.avgirl{
+    width: 19%;
+    height: 57px;
+    margin-left: 22px;
+    padding-top: 20px;
+  
+
+}
+.admin{
+    margin-left: 10px;
+    color: gray;
+    padding-top: 23px;
+    
+}
+.girlblog{
+    display: flex;
+    flex-direction:row;
+
+}
+.calan{
+    color:hsl(342.9deg 100% 37.84%) ;
+    margin-top:7px;
+    margin-left:37px;
+    
+}
+.calpart{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+.dat{
+    margin-top:7px;
+    color: gray;
+}
+.blogsubhead{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.blogsubpara{
+    padding-left: 20px;
+    padding-top: 10px;
+    color: gray;
+}
+.blogview{
+    padding-left:21px;
+    color:hsl(342.9deg 100% 37.84%) ;
+}
+.blogview:hover{
+    color:#374b5c;
+}
+.bloghead{
+    padding-top: 80px;
+}
+.blogpara{
+    color: gray;
+}
+.btnblog{
+    margin-top: 97px;
+    margin-left:470px;
+}
+.est{
+    background-color: hsl(342.9deg 100% 37.84%);
+    border-radius: 43px;
+    color: white;
+    padding: 5px 7px;
+}
+
+
+@media(max-width:991px){
+
+.adsblog{
+    height: 595px!important;}
+
+.avgirl {
+    width: 15%;
+
+    height: 69px;}
+.btnblog
+    {
+        margin-top: 10px;
+        margin-left: 116px;
+        margin-bottom: 10px;
+
+    }
+
+    .bloghead {
+        padding-top: 55px;
+        padding-left: 84px;
+    }
+}

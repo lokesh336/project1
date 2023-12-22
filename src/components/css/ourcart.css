@@ -1,0 +1,72 @@
+.catpadd{
+    margin-top:37px;
+    background-color: hsl(0deg 0% 100%);
+}
+.carthead{
+    padding-left: 10px;
+    padding-top: 22px;
+}
+.flt{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.cardbtn{
+    margin-left: 870px;
+}
+.cat{
+  background-color: hsl(342.9deg 100% 37.84%);
+  border-radius: 43px;
+  color: white;
+  padding: 6px 3px;
+}
+.cartpara{
+  font-size: 15px;
+  padding-top: 10px;
+  padding-left: 12px;
+  color: gray;
+}
+.menucard {
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s; */
+    border-radius:6px;
+    text-align: center;
+    border: 1px solid #e4ebea;
+    height: 220px;
+    margin-bottom:30px;
+    cursor: pointer;
+    transition: 1s;
+  }
+  /* .menucard:hover{
+    background-color: gray;
+  } */
+  .foodcard:hover{
+    box-shadow: 0 8px 16px 0 rgba(11,175, 154, 0.5);
+    transform: scale(1.1);
+    z-index: 2;
+
+  }
+  .imgcart{
+    width: 72%;
+    margin-left: 21px;
+  }
+  .cardtitle{
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 10px;
+  }
+  .cardsbtn{
+    margin-left:469px;
+    margin-top:38px;
+  }
+  @media(max-width:991px)
+{  
+  .imgcart {
+    width: 38%;
+}
+.cardsbtn {
+  margin-left: 100px;
+}
+.carthead {
+  padding-left: 93px!important;}
+}

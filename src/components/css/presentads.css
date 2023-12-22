@@ -1,0 +1,139 @@
+.adscol{
+    background-color: #f9fafc;
+}
+.adshead{
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 70px;
+}
+.adsround{
+    background-color: hsl(342.9deg 100% 37.84%);
+    border-radius: 43px;
+    color: white;
+    padding: 6px 3px;
+}
+.adsbtn{
+    margin-top: 89px;
+    margin-left:470px;
+}
+.adscard{
+    border-radius:6px;
+    box-shadow: 0 8px 16px 0 rgba(20, 20, 20, 0.1);
+    border: 1px solid #e4ebea;
+    height: 420px;
+    margin-bottom: 76px;
+    cursor: pointer;
+    transition: 1s;
+    width:100%;
+}
+.adscard2{
+    border-radius:6px;
+    box-shadow: 0 8px 16px 0 rgba(20, 20, 20, 0.1);
+    border: 1px solid #e4ebea;
+    height: 420px;
+    margin-bottom:25px;
+    cursor: pointer;
+    transition: 1s;
+    width:100%;
+}
+.adimg{
+    width:100%;
+    border-radius:2%;
+}
+.av{
+    width: 15%;
+    margin-left: 22px;
+    margin-top: -24px;
+   
+}
+.money{
+    font-size: 19px;
+    color: #c10037;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.one{
+    color: gray;
+    font-size:20px;
+    font-weight:400;
+
+}
+.star{
+  background-color:orangered;
+  padding: 3px 11px 5px 5px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  margin-left: 103px;
+  font-weight: 300;
+  font-size: 17px;
+
+
+}
+.roundicon{
+    margin-left: 15px;
+    display: flex;
+    color: gray;
+    flex-direction: row;
+    padding-top: 10px;
+  
+}
+.addhead{
+    padding-left: 20px;
+    font-size: 20px;
+    color:hsl(213.06deg 12.9% 30.69%);
+}
+.addloc{
+    color: gray;
+    padding-left: 13px;
+    font-size: 14px;
+    padding-top: 7px;
+    display: flex;
+    flex-direction: row;
+}
+.addcal{
+    display: flex;
+    flex-direction: row;
+    margin-left: 27px;
+    font-size: 15px;
+}
+.addbtn{
+    margin-top: 22px;
+    margin-left: 24px;
+    position: absolute;
+    z-index: 1;  
+}
+.addhead2{
+    margin-left: 19px;
+    font-size: 21px;
+   color:hsl(213.06deg 12.9% 30.69%);
+}
+.prepara{
+    padding-bottom:23px;
+    color: gray;
+}
+@media(max-width:991px)
+{  
+  
+.adshead {
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 51px;
+    padding-top: 52px;
+}
+.adsbtn {
+    margin-left: 100px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.adscard {
+    height: 450px;
+}
+.prepara{
+    padding-left: 29px;
+    padding-top: 10px;
+}
+.adscard2 {
+height: 445px;
+}
+}

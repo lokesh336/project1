@@ -1,0 +1,52 @@
+.offimg{
+    width: 100%;
+    height: 550px;
+}
+.offhead{
+
+    padding-top: 150px;
+    padding-left: 20px;
+    font-weight: 700;
+}
+.offpara{
+    padding-top: 15px;
+    color: gray;
+    padding-left: 20px;
+}
+.btnadd{
+    margin-left:32px;
+    width: 159px;
+    height: 44px;
+    color:white ;
+    background-color: hsl(342.9deg 100% 37.84%);
+    margin-top: 20px;
+}
+.btnadd:hover{
+    background-color: white;
+    color:hsl(342.9deg 100% 37.84%) ;
+}
+.btnbrowse{
+    margin-left: 20px;
+    width: 159px;
+    height: 44px;
+    margin-top: 20px;
+}
+.btnbrowse:hover{
+    background-color: white;
+    color: gray;
+}
+.imgoffer{
+    padding-top:66px;
+}
+
+@media(max-width:991px){
+.btnadd {
+    margin-left: 80px;
+}
+.btnbrowse {
+    margin-left: 81px;
+}
+.imgoffer{
+    display: none;
+}
+}

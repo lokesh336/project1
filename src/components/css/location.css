@@ -1,0 +1,114 @@
+.loc{
+    background-color:hsl(342.9deg 100% 37.84%) ;
+    color: white;
+}
+.locbtn{
+    margin-left: 1054px;
+    color: white;
+}
+.locbtn:hover{
+    color:hsl(342.9deg 100% 37.84%) ;
+    background-color: white;  
+}
+
+.loctitles{
+    color: white;
+    font-weight: 700;
+    padding-top: 60px;
+}
+.locround{
+    background-color:white;
+    border-radius: 43px;
+    color:hsl(342.9deg 100% 37.84%);
+    padding: 6px 3px;
+
+}
+.locpara{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+}
+.tourcard{
+    border-radius:6px;
+    
+    border: 1px solid #e4ebea;
+    height:185px;
+    margin-bottom: 76px;
+    cursor: pointer;
+    transition: 1s;
+    background-color: white;
+}
+.imgloc{
+    width: 100%;
+    padding: 22px 0px 20px 20px;
+    border-radius:20px;
+    
+}
+.locad{
+    padding-left: 8px;
+    color: black;
+}
+.viewcard{
+    border-radius:6px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    text-align: center;
+    border: 1px solid #e4ebea;
+    height:39px;
+    margin-top:25px;
+    cursor: pointer;
+    padding-top: 6px;
+    width:92%;
+    transition: 1s;
+    background-color: white;
+    color: black;
+}
+.viewcard:hover{
+    color: white;
+    background-color:hsl(342.9deg 100% 37.84%) ; ;
+}
+.locplc{
+    padding-top: 41px;
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 8px;
+    color: black;
+}
+@media(max-width:991px){
+
+    .imgloc {
+        width: 43%;
+        height: 82%;
+    }
+
+.tourcard {
+    border-radius: 6px;
+    border: 1px solid #e4ebea;
+    height: 152px;
+    margin-bottom: 76px;
+    cursor: pointer;
+    transition: 1s;
+    background-color: white;
+}
+
+.locbtn{
+    margin-left: 110px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.locplc {
+
+    margin-left: 182px;
+    margin-top: -189px;
+    font-size: 16px;
+}
+
+
+    .locad {
+        padding-left: 190px;}
+  .viewcard{
+
+    width: 47%;
+    margin-left: 151px;
+  }      
+}
